@@ -1,0 +1,22 @@
+!! Scrollbar
+URxvt*scrollBar: false 
+
+!! Extensions & launchers
+URxvt*perl-ext-common: default,matcher,selection-to-clipboard
+URxvt*url-launcher: firefox
+
+!! Dimensions
+URxvt.internalBorder: 20 
+
+!! Font
+URxvt.font: xft:Envy Code R-10
+URxvt*utf8: true 
+
+!! Transparency
+URxvt*depth: 32
+
+!! Keybinds
+URxvt.iso14755: false
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
