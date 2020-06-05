@@ -1,17 +1,17 @@
 # Dotfiles
-My linux environment dotfiles
+This repo contains all my linux environment dotfiles.
+Dotfiles are configurations for the different modules listed below.
 
-## Prerequisites
+## Modules
 
 * WM: `i3-gaps`
-* [`picom-tryone`](https://github.com/tryone144/picom). Location :
- `~/.config/picom/picom.conf`
-* `polybar`. Location : `~/.config/polybar/{config,launch.sh}`
-* `vim`
-* `pywal` 
-* `mpd`
-* `rofi`. Location : `~/.config/rofi/config`
+* Compositor: [`picom-tryone`](https://github.com/tryone144/picom)
+* Status bar: `polybar`
+* CLI Text editor: `vim`
+* Wallpaper / System colors: `pywal` 
+* Music player daemon : `mpd`
+* App launcher: `rofi`
 * Shell : `zsh` 
 * Term : `rxvt-unicode`
 * Font : `Envy Code R`
-* Font : `Siji` 
+* Icon Font (for Polybar) : `Siji` 
