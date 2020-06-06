@@ -11,7 +11,7 @@ Dotfiles are configurations for the different modules listed below.
 * Wallpaper / System colors: `pywal` 
 * Music player daemon : `mpd`
 * App launcher: `rofi`
-* Shell : `zsh` 
+* Text editor: `neovim` (install plugins using `vim-plug` by typing `:PlugInstall`) 
 * Term : `rxvt-unicode`
 * Font : `Envy Code R`
 * Icon Font (for Polybar) : `Siji` 
