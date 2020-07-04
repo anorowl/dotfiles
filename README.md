@@ -11,6 +11,6 @@ Dotfiles are configurations for the different modules listed below.
 * Music player daemon : `mpd`
 * App launcher: `rofi`
 * Text editor: `neovim` (install plugins using `vim-plug` by typing `:PlugInstall`) 
-* Term : `rxvt-unicode`
+* Term : `kitty`
 * Font : `Envy Code R`
 * Icon Font (for Polybar) : `Siji` 
