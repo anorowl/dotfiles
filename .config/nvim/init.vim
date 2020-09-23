@@ -23,14 +23,14 @@ call plug#end()
 
 inoremap jk <ESC>
 nmap <C-n> :NERDTreeToggle<CR>
-vmap ++ <plug>NERDCommenterToggle
-nmap ++ <plug>NERDCommenterToggle
+"vmap ++ <plug>NERDCommenterToggle
+"nmap ++ <plug>NERDCommenterToggle
 
 " open NERDTree automatically
-"autocmd StdinReadPre * let s:std_in=1
-"autocmd VimEnter * NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * NERDTree
 
-let g:NERDTreeGitStatusWithFlags = 1
+"let g:NERDTreeGitStatusWithFlags = 1
 "let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 "let g:NERDTreeGitStatusNodeColorization = 1
 "let g:NERDTreeColorMapCustom = {
@@ -45,7 +45,7 @@ let g:NERDTreeGitStatusWithFlags = 1
     "\ }                         
 
 
-let g:NERDTreeIgnore = ['^node_modules$']
+"let g:NERDTreeIgnore = ['^node_modules$']
 
 " vim-prettier
 "let g:prettier#quickfix_enabled = 0
@@ -68,8 +68,8 @@ set number relativenumber
 
 set smarttab
 set cindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 " always uses spaces instead of tab characters
 set expandtab
 
@@ -104,7 +104,8 @@ let g:coc_global_extensions = [
   \ ]
 " from readme
 " if hidden is not set, TextEdit might fail.
-set hidden " Some servers have issues with backup files, see #649 set nobackup set nowritebackup " Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
+set hidden " Some servers have issues with backup files, see #649 set nobackup set nowritebackup 
+" Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=300
 
 " don't give |ins-completion-menu| messages.
